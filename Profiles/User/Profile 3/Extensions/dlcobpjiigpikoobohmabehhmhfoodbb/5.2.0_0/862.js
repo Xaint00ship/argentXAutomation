@@ -1,0 +1,3 @@
+"use strict";(self.webpackChunk_argent_x_extension=self.webpackChunk_argent_x_extension||[]).push([[862],{2862:(a,o,e)=>{e.r(o),e.d(o,{default:()=>s});var _=e(52322),n=e(10896),r=e(6316);const s=({nft:t})=>(0,_.jsx)("model-viewer",{src:t.animation_uri,alt:`3D model of ${t.name}`,poster:(0,r.TU)(t),"auto-rotate":!0,"camera-controls":!0,"shadow-intensity":"1","poster-color":"transparent",ar:!0})}}]);
+
+//# sourceMappingURL=sourcemaps/862.js.map

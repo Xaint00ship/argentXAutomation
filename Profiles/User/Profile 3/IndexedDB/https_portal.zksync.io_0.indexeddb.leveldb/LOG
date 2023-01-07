@@ -1,0 +1,14 @@
+2023/01/01-03:47:55.443 6c98 Reusing MANIFEST D:\projects\metaMaskAutomation\Profiles\User\Profile 3\IndexedDB\https_portal.zksync.io_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/01-03:47:55.443 6c98 Recovering log #106
+2023/01/01-03:47:55.444 6c98 Reusing old log D:\projects\metaMaskAutomation\Profiles\User\Profile 3\IndexedDB\https_portal.zksync.io_0.indexeddb.leveldb/000106.log 
+2023/01/01-03:47:55.444 6c98 Delete type=2 #104
+2023/01/01-03:47:55.482 6820 Level-0 table #111: started
+2023/01/01-03:47:55.484 6820 Level-0 table #111: 605 bytes OK
+2023/01/01-03:47:55.485 6820 Delete type=0 #106
+2023/01/01-03:47:55.485 6820 Manual compaction at level-0 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at '\x00\x1f\x00\x00\x05' @ 622 : 1
+2023/01/01-03:47:55.486 6820 Compacting 1@0 + 1@1 files
+2023/01/01-03:47:55.486 6820 Generated table #112@0: 42 keys, 1092 bytes
+2023/01/01-03:47:55.486 6820 Compacted 1@0 + 1@1 files => 1092 bytes
+2023/01/01-03:47:55.487 6820 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/01/01-03:47:55.488 6820 Delete type=2 #111
+2023/01/01-03:47:55.488 6820 Manual compaction at level-0 from '\x00\x1f\x00\x00\x05' @ 622 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)

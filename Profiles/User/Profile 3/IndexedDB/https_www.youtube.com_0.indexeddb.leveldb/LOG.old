@@ -1,0 +1,4 @@
+2022/12/27-13:30:16.185 5648 Reusing MANIFEST D:\projects\metaMaskAutomation\Profiles\User\Profile 3\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/27-13:30:16.185 5648 Recovering log #3
+2022/12/27-13:30:16.186 5648 Reusing old log D:\projects\metaMaskAutomation\Profiles\User\Profile 3\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2022/12/27-13:30:16.392 2f68 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

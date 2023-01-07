@@ -1,0 +1,3 @@
+2023/01/04-19:08:03.091 13f48 Creating DB D:\projects\metaMaskAutomation\Profiles\User\Profile 5\IndexedDB\https_buy-sandbox.moonpay.com_0.indexeddb.leveldb since it was missing.
+2023/01/04-19:08:03.095 13f48 Reusing MANIFEST D:\projects\metaMaskAutomation\Profiles\User\Profile 5\IndexedDB\https_buy-sandbox.moonpay.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/04-19:08:07.788 13f48 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

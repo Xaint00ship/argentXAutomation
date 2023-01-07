@@ -1,0 +1,36 @@
+{
+   "$schema": "https://json.schemastore.org/chrome-manifest.json",
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/logo.png",
+         "16": "assets/logo.png",
+         "48": "assets/logo.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "Argent X"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "inject.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+   "description": "The security of Ethereum with the scale of StarkNet",
+   "icons": {
+      "128": "assets/logo.png",
+      "16": "assets/logo.png",
+      "48": "assets/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlFsqkzdTY/1rA2YhgaFs0ZVL7uZLe3x+YPCJi1Z0z4SDwgqyh8H717NUcIgjDq6dy3tdDagzINWqtt7kqIBABLWZEKlxJodfqBJLIq5KeK0pZJ7pEe3LvlDZvCu+uzVelxaC9xX2k+nk5YZXj18qCdi+BzK2zj9UCylmsYjgFeqKciCmAWQfU+iKiUekDT8CWkW/kipBgMKlm20zvsuFu8/uNv/XmzZynRG5gORsC74xmvJJjIdsMUgBU/J8AqFu7FNuxLCGJCWByJLJV2JIgJHJ7SrazlwwXmz0dtZHrNT4P2ITTbjJ/3srv7uXRtemxhCOs3fbjw24xhAuewxGwwIDAQAB",
+   "manifest_version": 2,
+   "name": "Argent X",
+   "permissions": [ "alarms", "downloads", "tabs", "storage", "notifications", "http://localhost/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.2.0",
+   "web_accessible_resources": [ "inpage.js" ]
+}
